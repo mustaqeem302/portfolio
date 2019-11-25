@@ -1,5 +1,5 @@
 <?php
-    $toEmail = "cs@qsautorepair.com";
+    $toEmail = "m-mustaqeem@outlook.com.com";
     $subject = "For p2xgraphics";
     $mailHeaders = "From: " . $_POST["name"] . "<". $_POST["email"] .">\r\n";
     if(mail($toEmail, $subject , $_POST["message"], $mailHeaders)) {
